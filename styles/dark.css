@@ -1,16 +1,35 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --bg-img: url('../images/cover-image-dark.png');
+  --bg-color: #000028;
+  --accent-color: #FF0070;
+  --text-color: #F1B2CE;
+  --cover-color: #DB00FF;
+  --menu-color: #FF0070;
+  --title-color: #FF0070;
+  --subtitle-color: #000028;
 }
 
-.theme-dark .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+.theme-dark .decore::before {
+  content: 'Rec';
+  display: block;
+  position: absolute;
+  inset-block-start: var(--main-offset);
+  inset-inline-end: calc(var(--main-offset) + 28px);
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 25px;
+  color: var(--menu-color);
+}
+
+.theme-dark .decore::after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  inset-block-start: calc(var(--main-offset) + 8px);
+  inset-inline-end: calc(var(--main-offset) + 9px);
+  background-color: var(--menu-color);
+  border-radius: 50%;
+  inline-size: 10px;
+  block-size: 10px;
+  box-shadow: 0 0 10px var(--accent-color);
 }
