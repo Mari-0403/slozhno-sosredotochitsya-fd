@@ -1,1 +1,1 @@
-https://github.com/Mari-0403/slozhno-sosredotochitsya-fd/actions
+https://github.com/Mari-0403/slozhno-sosredotochitsya-fd

@@ -2,6 +2,7 @@
   --bg-img: url('../images/cover-image-light.png');
   --bg-color: #FFF1F7;
   --accent-color: #FF8DCB;
+  --hover-border-color: #32312D66;
   --text-color: #353430;
   --cover-color: #FFC2E6;
   --menu-color: #353430;
@@ -22,6 +23,7 @@
     --bg-img: url('../images/cover-image-light.png');
     --bg-color: #FFF1F7;
     --accent-color: #FF8DCB;
+    --hover-border-color: #32312D66;
     --text-color: #353430;
     --cover-color: #FFC2E6;
     --menu-color: #353430;
