@@ -32,7 +32,6 @@
 
 .header__theme-menu-button {
   background-color: transparent;
-  border: none;
   font-family: inherit;
   color: var(--menu-color, #FF0070);
   text-transform: lowercase;
@@ -138,7 +137,7 @@
   margin-block-start: 30px;
 }
 
-.main__section:first-child{
+.main__section:first-child {
   margin-block-start: 40px;
 }
 
@@ -221,21 +220,18 @@
   .cover__subtitle {
     inline-size: 364px;
     place-self: center end;
+    margin-block-end: 20px; /* Для PP */
   }
 
   .header__theme-menu {
   padding-block-start: 15px; /* Для PP */
   }
 
-  .cover__subtitle {
-    margin-block-end: 20px; /* Для PP */
-  }
-
   .main__section {
     margin-block-start: 60px;
   }
   
-  .main__section:first-child{
+  .main__section:first-child {
     margin-block-start: 60px;
   }
 
