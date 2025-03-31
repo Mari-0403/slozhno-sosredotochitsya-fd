@@ -11,26 +11,9 @@
 }
 
 .theme-dark .decore::before {
-  content: 'Rec';
   display: block;
-  position: absolute;
-  inset-block-start: var(--main-offset);
-  inset-inline-end: calc(var(--main-offset) + 28px);
-  text-transform: uppercase;
-  font-size: 18px;
-  line-height: 25px;
-  color: var(--menu-color);
 }
 
 .theme-dark .decore::after {
-  content: ' ';
   display: block;
-  position: absolute;
-  inset-block-start: calc(var(--main-offset) + 8px);
-  inset-inline-end: calc(var(--main-offset) + 9px);
-  background-color: var(--menu-color);
-  border-radius: 50%;
-  inline-size: 10px;
-  block-size: 10px;
-  box-shadow: 0 0 10px var(--accent-color);
 }
